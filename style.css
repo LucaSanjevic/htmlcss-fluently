@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bianco {
+    color: white;
+}
+
+.font {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grassetto {
+    font-weight: bold;
+}
+
+header {
+   background-image: url("img/background-header.png");
+   background-position: bottom right;
+   background-size: 65%;
+   background-repeat: no-repeat;
+   background-color: rgba(5, 33, 87, 0.877);
+   height: 85vh;
+   position: relative;
+}
+
+.intestazione {
+    width: 80vw;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.logo {
+    float: left;
+}
+
+ul {
+    padding-left: 5%;
+    float: left;
+    line-height: bottom;
+    margin-top: 10px;
+}
+
+li{
+    margin: 5px;
+    display: inline-block;
+}
+
+.due_pulsanti {
+    display: inline-block;
+    float: right;
+}
+
+.pulsante1 {
+    margin: 10px;
+    height: 40px;
+    width: 100px;
+    background-color:rgba(5, 33, 87, 0.877);
+    border-radius: 5px;
+    border-color: white;
+}
+
+.pulsante2{
+     background-color:rgb(87, 163, 11);
+     height: 40px;
+     width: 160px;
+     border-radius: 5px;
+}
+
+.pulsante3{
+    background-color: rgb(87, 163, 11);
+    height: 50px;
+    width: 170px;
+    border-radius: 5px;
+}
+
+.tutor {
+    margin-right: 10px;
+}
+
+.titolo_pulsante {
+    width: 40vw;
+    position: absolute;
+    top: 30vh;
+}
+
+.titolo {
+    font-size: 55px;
+}
+.sottotitolo {
+
+}
+
+.grigio {
+    background-color: gray;
+    height: 20vh;
+}
+.prima_sezione {
+    height: 80vh;
+}
+
+.seconda_sezione {
+    height: 70vh;
+}
+
