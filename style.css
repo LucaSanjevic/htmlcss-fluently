@@ -174,7 +174,6 @@ transform: translate(-50%, -50%);
     margin-right: 8%;
 }
 .seconda_sezione {
-    height: 70vh;
     width: 70vw;
     margin: auto;
     margin-top: 40px;
@@ -219,8 +218,13 @@ transform: translate(-50%, -50%);
     margin: auto;
     height: 100%;
     position: relative;
+    transform: none;
 }
 
+footer {
+    position: relative;
+    width: 100%;
+}
 .contenitore_footer > .grassetto {
     font-size: 35px;
     position: absolute;
@@ -251,6 +255,6 @@ transform: translate(-50%, -50%);
     display: block;
     width: 60px;
     position: fixed;
-    margin-left: 305px;
-    margin-top: 20px;
+    right: 200px;
+    bottom: 60px;
 }
