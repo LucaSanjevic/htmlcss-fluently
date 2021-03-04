@@ -65,18 +65,20 @@ li{
 }
 
 .pulsante2{
-     background-color:rgb(87, 163, 11);
+     background-color:rgb(150, 231, 68);
      height: 40px;
      width: 160px;
      border-radius: 5px;
      vertical-align: middle;
+     border: hidden;
 }
 
-.pulsante3{
-    background-color: rgb(87, 163, 11);
+.pulsante3-4-5{
+    background-color: rgb(150, 231, 68);
     height: 50px;
     width: 170px;
     border-radius: 5px;
+    border: hidden;
 }
 
 .tutor {
@@ -124,20 +126,30 @@ transform: translate(-50%, -50%);
 }
 
 .prima_sezione {
-    height: 80vh;
     width: 80vw;
     margin: auto;
 }
+.prima_sezione::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
 .immagine_e_articolo {
     width: 100%;
     text-align: center;
 }
 
 .articolo {
-    width: 30%;
+    width: 25%;
    display: inline-block;
-   margin-top: 50px;
+   margin: 20px;
+   float: left;
 }
+.articolo-3 {
+    float: right;
+}
+
 .immagine_articolo {
     height: 200px;
     display: block;
@@ -158,8 +170,8 @@ transform: translate(-50%, -50%);
     text-align: center;
 }
 .margin {
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 9%;
+    margin-right: 8%;
 }
 .seconda_sezione {
     height: 70vh;
@@ -176,7 +188,11 @@ transform: translate(-50%, -50%);
     float: right;
     width: 29vw;
 }
-
+.seconda_sezione::after{
+    display: table;
+    content: "";
+    clear: both;
+}
 .quarto_articolo > .grassetto {
     font-size: 35px;
 }
@@ -194,7 +210,7 @@ transform: translate(-50%, -50%);
 }
 
 .grigio2 {
-    height: 30vh;
+    height: 300px;
     background-color:rgb(207, 202, 202); 
 }
 
@@ -210,12 +226,31 @@ transform: translate(-50%, -50%);
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
+    float: left;
 }
 .livello {
-    padding-right: 40px;
+    padding-right: 60px;
     border-top: hidden;
     border-left: hidden;
     border-right: hidden;
     background-color: rgb(207, 202, 202);
-    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.footer_2 {
+    float: right;
+    margin-top: 5%;
+    transform: translate(0, 70%);
+}
+.contenitore_footer::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+.pulsante-5 {
+    display: block;
+    width: 60px;
+    position: fixed;
+    margin-left: 305px;
+    margin-top: 20px;
 }
