@@ -30,16 +30,19 @@ header {
     width: 80vw;
     margin: auto;
     padding-top: 20px;
+    display: table;
 }
 
 .logo {
     float: left;
+    display: table;
 }
 
 ul {
     padding-left: 5%;
     float: left;
     margin-top: 10px;
+    display: table;
 }
 
 li{
@@ -48,13 +51,12 @@ li{
 }
 
 .due_pulsanti {
-    display: inline-block;
     float: right;
-    margin-top: 7px;
+    margin-top: 5px;
 }
 
 .pulsante1 {
-    margin-left: 10px;
+    margin-left: 20px;
     margin-right: 10px;
     height: 40px;
     width: 100px;
@@ -82,7 +84,7 @@ li{
 }
 
 .tutor {
-    margin-right: 10px;
+    vertical-align: middle;
 }
 
 .titolo_pulsante {
@@ -230,7 +232,6 @@ footer {
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
-    float: left;
 }
 .livello {
     padding-right: 60px;
@@ -242,9 +243,10 @@ footer {
     margin-right: 20px;
 }
 .footer_2 {
-    float: right;
-    margin-top: 5%;
-    transform: translate(0, 70%);
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 0;
 }
 .contenitore_footer::after{
     display: table;
