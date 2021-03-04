@@ -39,7 +39,6 @@ header {
 ul {
     padding-left: 5%;
     float: left;
-    line-height: bottom;
     margin-top: 10px;
 }
 
@@ -51,15 +50,18 @@ li{
 .due_pulsanti {
     display: inline-block;
     float: right;
+    margin-top: 7px;
 }
 
 .pulsante1 {
-    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     height: 40px;
     width: 100px;
     background-color:rgba(5, 33, 87, 0.877);
     border-radius: 5px;
     border-color: white;
+    vertical-align: middle;
 }
 
 .pulsante2{
@@ -67,6 +69,7 @@ li{
      height: 40px;
      width: 160px;
      border-radius: 5px;
+     vertical-align: middle;
 }
 
 .pulsante3{
@@ -89,19 +92,91 @@ li{
 .titolo {
     font-size: 55px;
 }
-.sottotitolo {
 
+.sottotitolo {
+position: absolute;
+top: 50%;
+left:50%;
+transform: translate(-50%, -50%);
+}
+
+.sottotitolo1 {
+            display: block;
+            text-align: center;
+            font-size: 25px;
+}
+
+.sottotitolo2 {
+    display: block;
+    color: gray;
+    margin-top: 5px;
 }
 
 .grigio {
-    background-color: gray;
+    background-color: rgb(207, 202, 202);
     height: 20vh;
+    position: relative;
 }
+.verde {
+    color: rgb(24, 163, 24);
+    margin: auto;
+    font-size: 25px;
+}
+
 .prima_sezione {
     height: 80vh;
+    width: 80vw;
+    margin: auto;
+}
+.immagine_e_articolo {
+    width: 100%;
+    text-align: center;
 }
 
+.articolo {
+    width: 30%;
+   display: inline-block;
+   margin-top: 50px;
+}
+.immagine_articolo {
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+
+.articolo > hr {
+    width: 10%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.grigio_text {
+    color: gray;
+}
+.text_center {
+    text-align: center;
+}
+.margin {
+    margin-left: 3%;
+    margin-right: 3%;
+}
 .seconda_sezione {
     height: 70vh;
+    width: 70vw;
+    margin: auto;
+    margin-top: 40px;
 }
 
+.seconda_sezione > img {
+    height: 60vh;
+    float: left;
+}
+.quarto_articolo {
+    float: right;
+    width: 25vw;
+}
+
+.quarto_articolo > .grassetto {
+    font-size: 30px;
+}
