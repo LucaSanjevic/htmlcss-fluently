@@ -174,9 +174,48 @@ transform: translate(-50%, -50%);
 }
 .quarto_articolo {
     float: right;
-    width: 25vw;
+    width: 29vw;
 }
 
 .quarto_articolo > .grassetto {
-    font-size: 30px;
+    font-size: 35px;
+}
+
+.spostato_giu > .grigio_text {
+    font-size: 20px;
+}
+.spostato_giu {
+    margin-top: 10px;
+}
+
+.sottotitolato {
+    color: rgb(60, 117, 238);
+    text-decoration: underline;
+}
+
+.grigio2 {
+    height: 30vh;
+    background-color:rgb(207, 202, 202); 
+}
+
+.contenitore_footer {
+    width: 80vw;
+    margin: auto;
+    height: 100%;
+    position: relative;
+}
+
+.contenitore_footer > .grassetto {
+    font-size: 35px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.livello {
+    padding-right: 40px;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    background-color: rgb(207, 202, 202);
+    height: 40px;
 }
